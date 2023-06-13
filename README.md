@@ -16,7 +16,7 @@ Before running the server, ensure that you have the following dependencies insta
 1. Clone the repository:
 
    ```shell
-   git clone https://github.com/your-username/video-cropping-api.git
+   git clone https://github.com/your-username/video-cropping-api.git   
 Install the dependencies:
 
 shell
@@ -36,11 +36,8 @@ The API exposes a single endpoint /crop-video that accepts the following query p
 - startTime (required): The start time of the desired video segment in the format hh:mm:ss.
 - endTime (required): The end time of the desired video segment in the format hh:mm:ss.
 - youtubeUrl (required): The URL of the YouTube video to be cropped.
+
+
 Example usage:
-
-   ```shell
-   GET /crop-video?startTime=00:02:35&endTime=00:03:45&youtubeUrl=https://www.youtube.com/watch?v=video-id
-   This will download the YouTube video, crop the specified segment, and return the cropped video as a downloadable file.
-
-   License
-   This project is licensed under the MIT License.
+  ```shell
+   GET /crop-video?startTime=00:02:35&endTime=00:03:45&youtubeUrl=https://www.youtube.com/watch?v=video-id   
