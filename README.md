@@ -38,15 +38,9 @@ The API exposes a single endpoint /crop-video that accepts the following query p
 - youtubeUrl (required): The URL of the YouTube video to be cropped.
 Example usage:
 
-shell
-Copy code
-GET /crop-video?startTime=00:02:35&endTime=00:03:45&youtubeUrl=https://www.youtube.com/watch?v=video-id
-This will download the YouTube video, crop the specified segment, and return the cropped video as a downloadable file.
+   ```shell
+   GET /crop-video?startTime=00:02:35&endTime=00:03:45&youtubeUrl=https://www.youtube.com/watch?v=video-id
+   This will download the YouTube video, crop the specified segment, and return the cropped video as a downloadable file.
 
-License
-This project is licensed under the MIT License.
-
-css
-Copy code
-
-Feel free to customize the README file according to your needs.
+   License
+   This project is licensed under the MIT License.
