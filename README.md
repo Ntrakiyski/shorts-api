@@ -17,18 +17,15 @@ Before running the server, ensure that you have the following dependencies insta
 
    ```shell
    git clone https://github.com/your-username/video-cropping-api.git   
+   
 Install the dependencies:
+- cd video-cropping-api
+- npm install
 
-   ```shell
-cd video-cropping-api
 
-   ```shell
-npm install
 Start the server:
-
-shell
-Copy code
-npm start
+-  npm start
+-  
 The server will be running on http://localhost:3000.
 
 Usage
@@ -40,5 +37,4 @@ The API exposes a single endpoint /crop-video that accepts the following query p
 
 
 Example usage:
-  ```shell
    GET /crop-video?startTime=00:02:35&endTime=00:03:45&youtubeUrl=https://www.youtube.com/watch?v=video-id   
