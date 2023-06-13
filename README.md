@@ -19,9 +19,10 @@ Before running the server, ensure that you have the following dependencies insta
    git clone https://github.com/your-username/video-cropping-api.git   
 Install the dependencies:
 
-shell
-Copy code
+   ```shell
 cd video-cropping-api
+
+   ```shell
 npm install
 Start the server:
 
