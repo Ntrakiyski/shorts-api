@@ -5,7 +5,7 @@ const fs = require("fs");
 const { exec } = require("child_process");
 
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000; // Use the environment variable PORT or fallback to 3000
 
 let outputCount = 2;
 
