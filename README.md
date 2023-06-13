@@ -33,9 +33,9 @@ The server will be running on http://localhost:3000.
 Usage
 The API exposes a single endpoint /crop-video that accepts the following query parameters:
 
-startTime (required): The start time of the desired video segment in the format hh:mm:ss.
-endTime (required): The end time of the desired video segment in the format hh:mm:ss.
-youtubeUrl (required): The URL of the YouTube video to be cropped.
+- startTime (required): The start time of the desired video segment in the format hh:mm:ss.
+- endTime (required): The end time of the desired video segment in the format hh:mm:ss.
+- youtubeUrl (required): The URL of the YouTube video to be cropped.
 Example usage:
 
 shell
